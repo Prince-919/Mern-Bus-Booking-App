@@ -2,7 +2,7 @@ const router = require("express").Router();
 const authMiddleware = require("../middlewares/authMiddleware");
 const Booking = require("../models/bookingsModel");
 const Bus = require("../models/busModel");
-const stripe = require("stripe")(process.env.stripe_key);
+const stripe = require("stripe")(process.env.STRIPE_KEY);
 const { v4: uuidv4 } = require("uuid");
 // book a seat
 
@@ -113,6 +113,5 @@ router.post("/get-all-bookings", authMiddleware, async (req, res) => {
     });
   }
 });
-    
 
 module.exports = router;
