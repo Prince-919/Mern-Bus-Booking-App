@@ -1,0 +1,146 @@
+/* heights and widths */
+
+.h-screen {
+  height: 100vh;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.w-400 {
+  width: 450px;
+}
+
+/* inputs */
+
+input,
+select {
+  height: 40px;
+  border: 2px solid gray;
+  width: 100%;
+  padding-left: 20px;
+}
+.ant-form-item {
+  margin: 0 !important;
+}
+
+/* card */
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px !important;
+}
+
+/* text-sizes */
+
+.text-2xl {
+  font-size: 30px !important;
+}
+.text-xl {
+  font-size: 25px !important;
+}
+.text-lg {
+  font-size: 20px !important;
+}
+.text-md {
+  font-size: 18px !important;
+}
+
+.secondary-text {
+  color: #ec0c5c !important;
+}
+.primary-text {
+  color: #4481eb !important;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* buttons */
+
+.primary-btn {
+  background-image: linear-gradient(
+    to top,
+    #4481eb 0%,
+    #04befe 100%
+  ) !important;
+  border-radius: 2px !important;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.secondary-btn {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  color: white;
+  border-radius: 3px !important;
+  border: none;
+  padding: 7px 20px;
+
+  cursor: pointer;
+  height: 40px;
+}
+
+.outlined {
+  border: 2px solid #ec0c5c !important;
+  color: #ec0c5c !important;
+  background-color: white !important;
+  border-radius: 3px !important;
+}
+
+.disabled-btn {
+  background-color: gray !important;
+  color: white;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 0 !important;
+  cursor: not-allowed;
+  height: 40px;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+/* anchor */
+
+a {
+  text-decoration: none !important;
+  color: #4481eb;
+}
+
+i {
+  cursor: pointer;
+  font-size: 25px;
+}
+h1,
+p {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* spinner/loader */
+
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  z-index: 10000;
+}
+.spinner-border {
+  color: #04befe !important;
+  height: 80px !important;
+  width: 80px !important;
+}
+
+table {
+  border: 1px solid rgb(185, 185, 185) !important;
+}
