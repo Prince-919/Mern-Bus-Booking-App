@@ -15,7 +15,7 @@ app.use("/api/users", usersRoute);
 app.use("/api/buses", busesRoute);
 app.use("/api/bookings", bookingsRoute);
 
-// Deployment Part Start
+// Deployment Part Starting
 app.use(express.static(path.join(__dirname, "./client/build")));
 app.get("*", function (_, res) {
   res.sendFile(
